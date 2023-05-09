@@ -19,6 +19,5 @@
 # print("second")
 # print("first", end=" ");print("second")
 
-a = 5/3
-
-print(a)
+# a = 5/3
+# print(a)

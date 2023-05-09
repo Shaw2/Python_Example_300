@@ -32,6 +32,6 @@
 # capital_string = string.replace('a', 'A')
 # print(capital_string)
 
-string = 'abcd'
-string.replace('b', 'B')
-print(string)
+# string = 'abcd'
+# string.replace('b', 'B') # 원본은 그대로 두고 새로운 값을 리턴해준다는걸 보여줌!
+# print(string)

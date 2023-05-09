@@ -33,5 +33,5 @@
 # int_year = int(year)
 # print(int_year, int_year+1, int_year+2)
 
-총금액 = 48584*36
-print('총금액 :', 총금액%s,{'원'})
+# 총금액 = 48584*36
+# print('총금액 :', 총금액)
