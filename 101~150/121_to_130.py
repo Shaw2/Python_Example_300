@@ -104,28 +104,39 @@
 # int_list = int(lists) # 리스트에 있는 str들은 int로 한 번에 안바뀜
 # print(int_list)
 
-user_input = input('주민번호 유효 체크 : ')
-split_user_input = user_input.split('-')
-forward_num = split_user_input[0]
-backward_num = split_user_input[1]
-x = [2, 3, 4, 5, 6, 7, 8, 9]
-print(x[-1])
-a=0
-forward_sum = 0
-for i in forward_num:
-    forward_sum = forward_sum + int(i)*x[a]
-    a = a+1
-print(a)
-backward_sum = 0
-for i in backward_num[0:-1]:
-    backward_sum = backward_sum + int(i)*x[a]
-    a = a+1
-    print(a)
-    if a >= 8:
-        a = 0
+# user_input = input('주민번호 유효 체크 : ')
+# split_user_input = user_input.split('-')
+# forward_num = split_user_input[0]
+# backward_num = split_user_input[1]
+# x = [2, 3, 4, 5, 6, 7, 8, 9]
+# print(x[-1])
+# a=0
+# forward_sum = 0
+# for i in forward_num:
+#     forward_sum = forward_sum + int(i)*x[a]
+#     a = a+1
+# print(a)
+# backward_sum = 0
+# for i in backward_num[0:-1]:
+#     backward_sum = backward_sum + int(i)*x[a]
+#     a = a+1
+#     print(a)
+#     if a >= 8:
+#         a = 0
 
-first_calcul = (forward_sum+backward_sum)%11
-sec_calcul = 11 - first_calcul
-check_num = int(backward_num[-1])
-if sec_calcul != check_num:
-    print('유효하지 않은 주민등록번호입니다.')
+# first_calcul = (forward_sum+backward_sum)%11
+# sec_calcul = 11 - first_calcul
+# check_num = int(backward_num[-1])
+# if sec_calcul != check_num:
+#     print('유효하지 않은 주민등록번호입니다.')
+
+# import requests
+# btc = requests.get("https://api.bithumb.com/public/ticker/").json()['data']
+# print(btc)
+# changing_price = int(btc['max_price'])-int(btc['min_price'])
+# opening_price = int(btc['opening_price'])
+# baseline = opening_price+changing_price
+# if baseline >= int(btc['max_price']):
+#     print('상승장')
+# else : 
+#     print('하락장')
